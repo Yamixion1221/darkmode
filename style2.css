@@ -1,0 +1,23 @@
+#wrapper{overflow:hidden;width:100%;max-width:1070px;margin:0 auto;margin-top:0}#post-wraps{margin:20px auto}.blog-postr{margin-bottom:20px}#part-aside{width:100%;max-width:1070px;margin:0 auto}.post{position:relative;padding:0;margin:10px}.post-outer{width:33.3%;float:left;position:relative;overflow:hidden;display:block;margin:0 auto}.post-body{line-height:1.6em;color:#888;margin:0 auto 10px auto;font-size:13px;text-overflow:ellipsis}.post h2.post-title{display:inline-block;padding:0;font-size:18px;margin:20px auto}.post h2.post-title a{color:#222}.post h2.post-title a:hover{color:#888}#blog-pager{text-align:center;margin:0 auto;clear:both;width:30%;margin-top:40px}#right-side,#PopularPosts1,.vcard2,.post-footer{display:none;visibility:hidden}
+/* Post Thumbnail */
+.post img{display:block;width:100%!important;height:auto;cursor:default;transition:all .3s ease-in-out}.img-thumbnail{background:#e84118;position:relative;float:left;border-radius:8px;height:auto;margin:0 auto;padding:0;overflow:hidden}.img-thumbnail img{height:auto;object-fit:cover;margin:0 auto}.post:hover .img-thumbnail img{opacity:0.6;transform:scale(1.1);-webkit-transform:scale(1.1);-moz-transform:scale(1.1)}
+/* Post Info */
+.post-info{display:none;padding:0;color:#888;font-size:12px;text-align:center}.post-info a{color:#888}.post-info a:hover{color:#222}.time-info,.comment-info,.review-info,.author-info{display:inline-block;margin:0 5px 0 0}
+/* Blog Page */
+#blog-pager{text-align:center;margin:0 auto;clear:both;width:30%;margin-top:40px}#blog-pager-older-link{float:none}#blog-pager-older-link a{display:inline-block;height:36px;color:#F97F51;font-size:14px;font-weight:600;line-height:34px;border:2px solid;text-transform:capitalize;text-align:center;padding:0 25px;margin:0 auto 40px auto;border-radius:99em;transition:all .3s}#blog-pager-older-link a:hover{background:#F97F51;color:#fff;border-color:#F97F51}
+/* Featured Post */
+#FeaturedPost1 h2{display:none}#FeaturedPost1{background:#f6f9fc;position:relative;overflow:hidden;border-radius:8px;margin:20px 10px 30px 10px}#FeaturedPost1 .thumbb{background:#e84118;position:relative;display:inline-block;float:left;overflow:hidden;margin:0 20px 0 0}#FeaturedPost1 .thumbb img{cursor:pointer;object-fit:cover;transition:all .3s}#FeaturedPost1 .thumbb:hover img{opacity:0.6;transform:scale(1.1)}#FeaturedPost1 .feature-wrapp{display:block;padding:30px 20px 20px 20px}#FeaturedPost1 .feature-wrapp h3{font-size:2rem}#FeaturedPost1 .feature-wrapp h3 a{color:#222}#FeaturedPost1 .feature-wrapp h3 a:hover{color:#999}#FeaturedPost1 .feature-wrapp p{font-size:14px;margin:0 auto;color:#767676;line-height:1.5}#FeaturedPost1 .button-feature{overflow:hidden}#FeaturedPost1 .button-feature a{text-align:center;margin:20px auto 0 auto;outline:none;display:inline-block;position:relative;overflow:hidden;font-size:14px;color:#222;font-weight:600;transition:all 0.2s cubic-bezier(0.4,0,0.2,1)}#FeaturedPost1 .button-feature a:hover{color:#F97F51}#FeaturedPost1 .button-feature a svg{width:16px;height:16px;margin:0 0 0 2px;transform:rotate(180deg)}#FeaturedPost1 .button-feature a svg path{fill:#222;transition:all 0.2s cubic-bezier(0.4,0,0.2,1)}#FeaturedPost1 .button-feature a:hover svg path{fill:#F97F51}#FeaturedPost1 .label-feature{position:absolute;bottom:20px;right:20px;display:inline-block;clear:both;z-index:2;font-size:0}#FeaturedPost1 .label-feature .label-featurez{display:inline-block;color:#fff;text-decoration:none;overflow:hidden;border:2px solid;padding:5px 14px 5px 10px;border-radius:5px;font-size:14px;font-weight:600}#FeaturedPost1 .label-feature .label-featurez svg{margin:0 3px 3px 0}svg{vertical-align:middle}
+/* Homepage Responsive */
+@media screen and (max-width:800px){
+.post-outer {width:50%;}
+#blog-pager {width:50%;margin-top:20px;}}
+@media screen and (max-width:768px){
+#header,#header .description,#header h1,#header p,#header a {text-align:center;margin:0 auto;}
+#header-wrapper{margin:0 auto;}
+#wrapper,#post-wraps{width:100%;margin:10px auto;}
+#FeaturedPost1 .feature-wrapp h3{font-size:16px}#FeaturedPost1{background:#fff;position:relative;overflow:hidden;border-radius:8px;border:1px solid rgba(0,0,0,0.08);margin:0 10px 10px 10px}#FeaturedPost1 .feature-wrapp{padding:20px}#FeaturedPost1 .thumbb{width:100%;float:none;margin:0}#FeaturedPost1 .thumbb img{width:100%}#FeaturedPost1 .button-feature a svg{width:14px;height:14px}#FeaturedPost1 .button-feature a svg path{fill:#222}#FeaturedPost1 .feature-wrapp p{display:none}
+#blog-pager {width:100%}}
+@media screen and (max-width:480px){
+.post-outer {width:100%;}
+.post{border:none;}.img-thumbnail{float:none}
+h2.post-title a {font-size:16px;}}
