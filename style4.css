@@ -1,0 +1,3 @@
+.post{background:#fff;position:relative;padding:0;margin:20px;font-size:16px;color:#222;line-height:1.7}#part-aside{width:100%;margin:0 auto;float:none}#main{border-left:1px solid rgba(0,0,0,0.08)}.post{background:#fff;position:relative;padding:10px;margin:10px}.post-info{overflow:hidden;margin-top:20px;padding:10px 0}h1.post-title a{font-size:23px;text-align:center;display:block}.vcard2{float:left}.post-footer{float:right}.post-info,#right-side{display:none;visibility:hidden}
+@media screen and (max-width:480px){
+#main{border:0}}
